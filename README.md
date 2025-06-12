@@ -1,6 +1,7 @@
 ## Overview
 ### 目前支持的接口
 网站地址 https://1captcha.vip
+QQ群：717826273
 
 接口参数与yescaptcha基本一致,如从yescaptcha迁移1captcha，将https://api.yescaptcha.com替换为 https://api.1captcha.vip 即可
 
