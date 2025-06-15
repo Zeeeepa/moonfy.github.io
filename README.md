@@ -2,7 +2,6 @@
 ### 目前支持的接口
 网站地址 https://1captcha.vip
 新用户加群联系管理赠送 1000 测试点 QQ群：717826273  ![52555d689e54fbef453e53e0021274d](https://github.com/user-attachments/assets/9c81c975-5ee3-46ea-aedc-f7606039c6c6)
-另我们目前正在开发动态代理平台，当前处于内测中,上线后代理价格预计1元/1G
 
 接口参数与yescaptcha基本一致,如从yescaptcha迁移1captcha，将https://api.yescaptcha.com替换为 https://api.1captcha.vip 即可
 
@@ -20,6 +19,7 @@
 
 
 ### 传入代理说明
+ ####我们目前正在开发动态代理平台，当前处于内测中,上线后代理价格预计1元/1G
 * 使用账密认证或者无需白名单认证的代理, 格式请传 ip:port 或 usr:pwd@ip:port
 * 使用粘性/会话代理(即 n 分钟内 ip 保持不变的类型)
 * 注意代理使用次数, 不要固定一个代理
