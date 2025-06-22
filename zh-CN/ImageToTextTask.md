@@ -20,6 +20,8 @@
  
 
 #### 请求示例
+yandex图片示例
+![example7](https://github.com/user-attachments/assets/00a1f9e0-d390-4c62-9262-6c94a1dfa27b)
 
  
 ```
