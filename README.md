@@ -15,6 +15,7 @@
 | [CloudFlareTask](/zh-CN/CloudFlareTask.md)                         | CloudFlare5秒盾协议接口,需要传入代理     | `7` | ✅ |   ❌|
 | [RecaptchaV3TaskProxyless](/zh-CN/RecaptchaV3TaskProxyless.md)               | reCaptcha V3 协议接口,使用内置代理       | `6` |✅   |  ❌|
 | [ReCaptchaV3EnterpriseTaskProxyless](/zh-CN/ReCaptchaV3EnterpriseTaskProxyless.md)    | 企业版 reCaptcha V3 协议接口,使用内置代理| `7` |✅  |  ❌|
+| [ImageToTextTask](/zh-CN/ImageToTextTask.md)    | ImageToTextTask协议接口,可以识别Yandex等多类OCR图片 | `6` |✅  |  ❌|
 
 
 
