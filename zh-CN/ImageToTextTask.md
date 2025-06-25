@@ -74,7 +74,6 @@ yandex图片示例
 | status               | string         | **processing** - 正在识别中，请3秒后重试。    **ready** - 识别完成，在solution参数中找到结果   |  
 | solution             | Object         | 识别结果，不同类型的任务结果会有所区别。   |  
 | gRecaptchaResponse   | string         | 识别结果：response值。一次性使用，有效期120s，建议在60s内使用。   |  
-| respKey              | Integer        | 部份网站需要，如果有返回此值，请一起提交 |  
 
 
 #### 响应示例
