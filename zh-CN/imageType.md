@@ -16,19 +16,6 @@
 |x23_phpBB  | ![example9](https://github.com/user-attachments/assets/a8b3f4e1-2c10-4202-9c95-7be5526410a8)![example8](https://github.com/user-attachments/assets/4d80cc24-e768-4060-bceb-2dbd3a00ff67)![example7](https://github.com/user-attachments/assets/3cfca7dc-065c-4b0e-8b87-1a12b2d0cf58)![example6](https://github.com/user-attachments/assets/e01031e4-d89b-448e-b8cd-8f42a841883f)![example5](https://github.com/user-attachments/assets/d71b8bce-4520-465c-a353-b9b5e52c08ba)![example4](https://github.com/user-attachments/assets/b840a12c-3c45-4f1c-9ed4-3a63e00d2062)![example3](https://github.com/user-attachments/assets/07f05e49-0718-4d92-8ff0-e95010185eab)![example2](https://github.com/user-attachments/assets/f824d11b-beb1-45a8-a651-ced8d1429dc1)![example1](https://github.com/user-attachments/assets/90f64352-7344-4298-8c55-5d036139b04d)|
 |x23_VBulletin  |![example4](https://github.com/user-attachments/assets/7ede6811-3638-498b-96e6-58978a05ff07)![example3](https://github.com/user-attachments/assets/8db86448-72b2-49c1-89fe-e869e947c2ae)![example2](https://github.com/user-attachments/assets/10412ef6-1946-464f-bd6e-e9759609994f)![example](https://github.com/user-attachments/assets/80f1b8f6-b566-49fc-a231-839b5b53e6ac)|
 | x23_Bitrix |  ![example1](https://github.com/user-attachments/assets/03870c89-3abc-49b0-86d4-9514a6609595)![example3](https://github.com/user-attachments/assets/8f552fe2-7af4-42d2-98fb-d177be686d38)![example2](https://github.com/user-attachments/assets/484d5f17-1fc3-4a11-b7be-0d802f53f582)|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
 
 
 
