@@ -11,7 +11,7 @@
 请求地址： https://api.1captcha.vip/createTask
 
 请求格式：POST application/json
-
+通过率不是100%，通过率只有10%~90%不等，多测试。
 #### 对象结构
 
 | 属性 | 类型 | 必须 | 说明 | 
