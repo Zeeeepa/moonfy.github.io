@@ -57,7 +57,7 @@
 请求地址： https://api.1captcha.vip/getTaskResult
 
 请求格式：POST application/json
-根据系统负载，您将在 10s 到 120s 的时间间隔内得到结果，300秒自动超时
+根据系统负载，您将在  120s 的时间间隔内得到结果，300秒自动超时
 
 
 ```
