@@ -11,7 +11,7 @@
 请求地址： https://api.1captcha.vip/createTask
 
 请求格式：POST application/json
-
+recaptchav2 平均识别时间在130S左右
 #### 对象结构
 
 | 属性 | 类型 | 必须 | 说明 | 
