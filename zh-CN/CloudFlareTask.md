@@ -28,7 +28,7 @@
 {
     "clientKey": "cc9c18d3e263515c2c072b36a7125eecc078618f",
     "task": {
-      "type": "CloudFlareTaskS3",
+      "type": "CloudFlareTask",
       "websiteURL": "https://nowsecure.in",
       "proxy": "http://JN3wWChA:Dsg7ckfv@45.91.239.47:62930", //请用你自己的代理，这个只是演示
       "waitLoad": false, // 是否需要等待加载完成（如果你需要完整内容就写true，会增加识别时间）
