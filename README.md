@@ -13,7 +13,7 @@
 | [TurnstileTaskProxyless](/zh-CN/TurnstileTaskProxyless.md)              | CloudflareTurnstile协议接口              | `6` |✅  |  ✅|
 | [CloudFlareTask](/zh-CN/CloudFlareTask.md)                         | CloudFlare5秒盾协议接口,需要传入代理     | `7` | ✅ |   ✅|
 | [RecaptchaV3TaskProxyless](/zh-CN/RecaptchaV3TaskProxyless.md)               | reCaptcha V3 协议接口,使用内置代理       | `6` |✅   |  ❌|
-| [RecaptchaV3TaskProxylessS9](/zh-CN/RecaptchaV3TaskProxylessS9.md)               | reCaptcha V3高分协议接口,使用内置代理       | `12` |✅   |  ❌|
+| [RecaptchaV3TaskProxylessS9](/zh-CN/RecaptchaV3TaskProxylessS9.md)               | reCaptcha V3高分协议接口,使用内置代理       | `14` |✅   |  ❌|
 | [ReCaptchaV3EnterpriseTaskProxyless](/zh-CN/ReCaptchaV3EnterpriseTaskProxyless.md)    | 企业版 reCaptcha V3 协议接口,使用内置代理| `14` |✅  |  ❌|
 | [ImageToTextTask](/zh-CN/ImageToTextTask.md)    | ImageToTextTask协议接口,可以识别Yandex等多类OCR图片 ![example7](https://github.com/user-attachments/assets/e0fe623c-0771-406b-87e1-3318796c7282) | `6` |✅  |  ✅ |
 
