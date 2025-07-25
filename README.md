@@ -10,7 +10,6 @@
 | [HCaptchaTaskProxyless](/zh-CN/HCaptchaTaskProxyless.md)| HCaptcha 协议接口,使用内置代理           | `7` | ✅  |  ❌ |
 | HCaptchaTask                       | HCaptcha 协议接口,需传入代理             | `7` | ✅  |  ❌ |
 | [RecaptchaV2TaskProxyless](/zh-CN/RecaptchaV2TaskProxyless.md)           | reCaptchaV2协议接口,使用内置代理         | `4` | ✅  |  ✅ | 
-| RecaptchaV2Task                    | reCaptchaV2协议接口,需传入代理           | `4` |✅   |  ❌|    
 | [TurnstileTaskProxyless](/zh-CN/TurnstileTaskProxyless.md)              | CloudflareTurnstile协议接口              | `6` |✅  |  ✅|
 | [CloudFlareTask](/zh-CN/CloudFlareTask.md)                         | CloudFlare5秒盾协议接口,需要传入代理     | `7` | ✅ |   ✅|
 | [RecaptchaV3TaskProxyless](/zh-CN/RecaptchaV3TaskProxyless.md)               | reCaptcha V3 协议接口,使用内置代理       | `6` |✅   |  ❌|
