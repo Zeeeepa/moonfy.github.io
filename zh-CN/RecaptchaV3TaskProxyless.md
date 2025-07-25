@@ -28,7 +28,7 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
 | websiteKey        | string        | 是 | ReCaptchaV3 网站密钥，固定值。   |  
 | pageAction        | string        | 是 | 此值必须正确，否则识别的结果无效   | 
 | checkField        | string        | 否 | reload 包中 protobuf 9的新值，可进行二次验证   | 
-| websiteTitle        | string        | 否 | 加载recaptcha的网站页面，使用js控制台运行“document.title”获取title   | 
+| websiteTitle        | string        | 否 | 加载recaptcha的网站页面，使用js控制台运行“document.title”获取title ,部分网站传该值可以获得较高分数  | 
 | isInvisible        | Bool       | 否 | 对于reCaptcha V3类型， 该参数一般都为true，如果用户不提供，则默认自动设置为true   | 
 
 #### 请求示例
