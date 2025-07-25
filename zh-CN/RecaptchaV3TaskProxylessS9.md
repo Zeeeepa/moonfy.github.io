@@ -23,7 +23,7 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
 
 | 属性 | 类型 | 必须 | 说明 | 
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
-| type              | string        | 是 | RecaptchaV3TaskProxyless   |  
+| type              | string        | 是 | RecaptchaV3TaskProxylessS9   |  
 | websiteURL        | string        | 是 | ReCaptchaV3 网页地址，一般固定值。   |  
 | websiteKey        | string        | 是 | ReCaptchaV3 网站密钥，固定值。   |  
 | pageAction        | string        | 是 | 此值必须正确，否则识别的结果无效   | 
@@ -42,7 +42,7 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
         "websiteKey" : "6LcR_okUAAAAAPYrPe-HK_0RULO1aZM15ENyM-Mf",
         "pageAction" : "homepage", // 有单独找action值的教程，看上面说明
         "websiteTitle":"Score detector for reCAPTCHA v3",
-        "type" : "RecaptchaV3TaskProxyless"
+        "type" : "RecaptchaV3TaskProxylessS9"
     }
 }
 ```
