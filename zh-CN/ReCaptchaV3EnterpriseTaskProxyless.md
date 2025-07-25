@@ -14,24 +14,35 @@
 
 #### 对象结构
 
+注意：某些网站可能需要ua匹配，请直接使用我们指纹所用的ua，一般我们会跟随chrome版本进行更新
+
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
+
+
 | 属性 | 类型 | 必须 | 说明 | 
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | type              | string        | 是 | ReCaptchaV3EnterpriseTaskProxyless   |  
-| websiteURL        | string        | 是 | 企业版ReCaptchaV3 网页地址，一般固定值。   |  
-| websiteKey        | string        | 是 | 企业版ReCaptchaV3 网站密钥，固定值。   |  
-| pageAction        | string        | 是 | 此值必须正确，否则识别的结果无效   |  
+| websiteURL        | string        | 是 | ReCaptchaV3企业版 网页地址，一般固定值。   |  
+| websiteKey        | string        | 是 | ReCaptchaV3企业版 网站密钥，固定值。   |  
+| pageAction        | string        | 是 | 此值必须正确，否则识别的结果无效   | 
+| checkField        | string        | 否 | reload 包中 protobuf 9的新值，可进行二次验证   | 
+| websiteTitle        | string        | 否 | 加载recaptcha的网站页面，使用js控制台运行“document.title”获取title，部分网站传该值可获得较高分   | 
+| isInvisible        | Bool       | 否 | 对于reCaptcha V3类型， 该参数一般都为true，如果用户不提供，则默认自动设置为true   | 
 
 #### 请求示例
 
  
 ```
 {
-    "clientKey": "cc9c18d3e263515c2c072b36a7125eecc078618f",
+    "clientKey": "cc9c18d3e263515c2c072b36a7125eecc078xxxx",
     "task": {
-        "websiteURL" : "https://testnet.humanity.org/login",
-        "websiteKey" : "6LenESAqAAAAAL9ZymIB_A4Y03U3s3cPhBYKfcnU",
-        "pageAction" : "LOGIN", // 有单独找action值的教程，看上面说明
-        "type" : "ReCaptchaV3EnterpriseTaskProxyless"
+        "websiteURL" : "https://antcpt.com/score_detector",
+        "websiteKey" : "6LcR_okUAAAAAPYrPe-HK_0RULO1aZM15ENyM-Mf",
+        "pageAction" : "homepage", // 有单独找action值的教程，看上面说明
+        "websiteTitle":"Score detector for reCAPTCHA v3",
+        "type" : "RecaptchaV3TaskProxyless"
     }
 }
 ```
