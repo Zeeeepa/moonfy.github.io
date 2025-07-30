@@ -42,7 +42,7 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
         "websiteKey" : "6LcR_okUAAAAAPYrPe-HK_0RULO1aZM15ENyM-Mf",
         "pageAction" : "homepage", // 有单独找action值的教程，看上面说明
         "websiteTitle":"Score detector for reCAPTCHA v3",
-        "type" : "RecaptchaV3TaskProxyless"
+        "type" : "ReCaptchaV3EnterpriseTaskProxyless"
     }
 }
 ```
