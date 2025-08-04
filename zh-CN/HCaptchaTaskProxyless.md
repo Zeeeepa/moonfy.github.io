@@ -34,7 +34,7 @@
         "websiteKey": "338af34c-7bcb-4c7c-900b-acbec73d7d43",  // 这里是示例，具体的值你要去你的目标网站上找。。
         "type": "HCaptchaTaskProxyless",
         // 非必须，但如果传此值，提交的时候也需要使用这个值做为userAgent，如果接口返回的值与你提交的值不同，请使用接口返回的值
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36", // 与你请求网站时用的相同
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", // 与你请求网站时用的相同
         // 非必须，如果遇到隐型版本的请传true值
         "isInvisible": false,
         // 普通网站非必须，discord等网站可能需要获取rqdata字段
@@ -109,3 +109,4 @@
 - 正在识别中：当errorId等于0 并且status等于 processing，请3秒后重试。
 
 - 出错了：当errorId 大于0，请根据errorDescription了解出错误信息
+
