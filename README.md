@@ -5,6 +5,7 @@
 
 ### 在线调试及代码生成工具:https://1captcha.apifox.cn/
 
+ 
 | 类型 | 说明 | 消耗点数 | 运行状态 | 独享/包月 |
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | [HCaptchaTaskProxyless](/zh-CN/HCaptchaTaskProxyless.md)| HCaptcha 协议接口,使用内置代理           | `7` | ✅  |  ❌ |
@@ -17,7 +18,8 @@
 | [ReCaptchaV3EnterpriseTaskProxyless](/zh-CN/ReCaptchaV3EnterpriseTaskProxyless.md)    | 企业版 reCaptcha V3 协议接口,使用内置代理| `14` |✅  |  ❌|
 | [ImageToTextTask](/zh-CN/ImageToTextTask.md)    | ImageToTextTask协议接口,可以识别Yandex等多类OCR图片 ![example7](https://github.com/user-attachments/assets/e0fe623c-0771-406b-87e1-3318796c7282) | `6` |✅  |  ✅ |
 
-
+### 教程
+[如何找到reCaptcha需要的各项参数](/zh-CN/如何找到reCaptcha需要的各项参数.md)
 
 
 ### 传入代理说明
