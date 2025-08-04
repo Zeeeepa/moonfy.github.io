@@ -102,6 +102,4 @@ function findRecaptchaClients() {
 ]
 ```
 
-## 操作截图示例
-
-> 不会操作的，可以参考下面的图片说明
+然后在consolse执行这个函数findRecaptchaClients() 即可找到出对应的信息（注意！这里的version不代表这个站就是用的v2，不能以此作为标志判断版本，如果不能确定，以抓包为准）
