@@ -23,9 +23,9 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
 
 | 属性 | 类型 | 必须 | 说明 | 
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
-| type              | string        | 是 | ReCaptchaV3EnterpriseTaskProxyless   |  
-| websiteURL        | string        | 是 | ReCaptchaV3企业版 网页地址，一般固定值。   |  
-| websiteKey        | string        | 是 | ReCaptchaV3企业版 网站密钥，固定值。   |  
+| type              | string        | 是 | RecaptchaV3EnterpriseTaskProxyless   |  
+| websiteURL        | string        | 是 | RecaptchaV3企业版 网页地址，一般固定值。   |  
+| websiteKey        | string        | 是 | RecaptchaV3企业版 网站密钥，固定值。   |  
 | pageAction        | string        | 是 | 此值必须正确，否则识别的结果无效   | 
 | checkField        | string        | 否 | reload 包中 protobuf 9的新值，可进行二次验证   | 
 | websiteTitle        | string        | 否 | 加载recaptcha的网站页面，使用js控制台运行“document.title”获取title，部分网站传该值可获得较高分   | 
@@ -42,7 +42,7 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
         "websiteKey" : "6LcR_okUAAAAAPYrPe-HK_0RULO1aZM15ENyM-Mf",
         "pageAction" : "homepage", // 有单独找action值的教程，看上面说明
         "websiteTitle":"Score detector for reCAPTCHA v3",
-        "type" : "ReCaptchaV3EnterpriseTaskProxyless"
+        "type" : "RecaptchaV3EnterpriseTaskProxyless"
     }
 }
 ```
@@ -112,3 +112,4 @@ sec-ch-ua: "Google Chrome";v="137", "Not-A.Brand";v="24", "Chromium";v="137"
 - 正在识别中：当errorId等于0 并且status等于 processing，请3秒后重试。
 
 - 出错了：当errorId 大于0，请根据errorDescription了解出错误信息
+
