@@ -13,7 +13,11 @@
 请求格式：POST application/json
 recaptchav2 平均识别时间在130S左右
 #### 对象结构
+：某些网站可能需要ua匹配，请直接使用我们指纹所用的ua，一般我们会紧接着chrome版本进行更新
 
+用户代理：Mozilla/5.0（Windows NT 10.0；Win64；x64）AppleWebKit/537.36（KHTML，如 Gecko）Chrome/137.0.0.0 Safari/537.36
+
+sec-ch-ua：“Google Chrome”；v="137”，“非品牌”；v="24”，“Chromium”；v="137"
 | 属性 | 类型 | 必须 | 说明 | 
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | type              | string        | 是 | RecaptchaV2TaskProxyless   |  
@@ -98,3 +102,4 @@ recaptchav2 平均识别时间在130S左右
 - 正在识别中：当errorId等于0 并且status等于 processing，请3秒后重试。
 
 - 出错了：当errorId 大于0，请根据errorDescription了解出错误信息
+
