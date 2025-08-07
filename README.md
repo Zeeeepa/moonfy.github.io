@@ -9,7 +9,6 @@
 | 类型 | 说明 | 消耗点数 | 运行状态 | 独享/包月 |
 |:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
 | [HCaptchaTaskProxyless](/zh-CN/HCaptchaTaskProxyless.md)| HCaptcha 协议接口,使用内置代理           | `7` | ✅  |  ❌ |
-| HCaptchaTask                       | HCaptcha 协议接口,需传入代理             | `7` | ✅  |  ❌ |
 | [RecaptchaV2TaskProxyless](/zh-CN/RecaptchaV2TaskProxyless.md)           | reCaptchaV2协议接口,使用内置代理         | `4` | ✅  |  ✅ | 
 | [RecaptchaV2TaskProxylessS9](/zh-CN/RecaptchaV2TaskProxyless.md)           | reCaptchaV2协议高分接口,使用内置代理         | `14` | ✅  |  ✅ | 
 | [RecaptchaV2EnterpriseTaskProxyless](/zh-CN/RecaptchaV2TaskProxyless.md)           | reCaptchaV2协议企业版接口,使用内置代理         | `14` | ✅  |  ✅ | 
